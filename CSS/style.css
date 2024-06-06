@@ -59,7 +59,10 @@ header {
 /*SERVICES SECTION*/
 
 .demo-card {
+    background-color: cornflowerblue;
     margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .demo-card img {
@@ -98,6 +101,35 @@ header {
 
 .service-card h1, .fa-file-code, .fa-compass-drafting, .fa-laptop-code {
     color: blue;
+}
+
+/*STRATEGIC PLANNING SECTION*/
+
+.strategic-planning {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.sp-card img {
+    width: 100%;
+}
+
+.app-development-card {
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+}
+
+.app-development-card img {
+    width: 100%;
+}
+
+.violet-circle {
+    background-color: mediumpurple;
+    border-radius: 50%;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
