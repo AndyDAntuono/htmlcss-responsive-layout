@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* LAYOUT */
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+/* TEXT
+.text-center {
+    text-align: center;
+}
+>>> questa classe è da inserire nelle classi delle section. Ma serve davvero?<<<
+*/
+
+/*
+
+@media screen and (min-width: 1140px) {}
+
+@media screen and (min-width: 768px) {}
+
+*/
