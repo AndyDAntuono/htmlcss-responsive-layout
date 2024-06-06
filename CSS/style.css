@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+header {
+    background-color: blue;
+    color: white;
+}
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -18,18 +23,82 @@
 
 .row {
     display: flex;
+    justify-content: center;
+}
+
+.header-row {
+    justify-content: center;
 }
 
 .col-100 {
     width: 100%;
 }
 
-/* TEXT
+.col-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TEXT */
 .text-center {
     text-align: center;
 }
->>> questa classe è da inserire nelle classi delle section. Ma serve davvero?<<<
-*/
+
+/************************************************
+    SITE SECTIONS
+ ************************************************/
+
+/* HEADER */
+.header-site {
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*SERVICES SECTION*/
+
+.demo-card {
+    margin-top: 30px;
+}
+
+.demo-card img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.demo-card h1, p {
+    margin-bottom: 20px;
+}
+
+.app-store-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.fa-apple {
+    margin-left: 10px;
+}
+
+.service-card {
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.service-card h1, .fa-file-code, .fa-compass-drafting, .fa-laptop-code {
+    color: blue;
+}
 
 /*
 
