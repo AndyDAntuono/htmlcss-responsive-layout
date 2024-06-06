@@ -43,6 +43,8 @@ header {
 /* TEXT */
 .text-center {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /************************************************
@@ -130,6 +132,35 @@ header {
     width: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*TESTIMONIALS SECTION*/
+.testimonials-card {
+    margin-top: 30px;
+}
+
+.testimonials-card h1, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.single-testimonal-card {
+    background-color: mediumpurple;
+    color: white;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.testimonal-photo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 210px;
+    border-radius: 50%;
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
 }
 
 /*
