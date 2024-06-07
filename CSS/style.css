@@ -34,6 +34,18 @@ header {
     width: 100%;
 }
 
+.col-90 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-80 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .col-header {
     display: flex;
     justify-content: space-between;
@@ -41,6 +53,7 @@ header {
 }
 
 /* TEXT */
+
 .text-center {
     text-align: center;
     margin-left: auto;
@@ -86,8 +99,7 @@ header {
     width: 30%;
     border-radius: 15px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -109,6 +121,13 @@ header {
 
 .strategic-planning {
     background-color: mediumpurple;
+}
+
+.sp-card {
+    color: white;
+}
+
+.sp-card h1 {
     color: white;
 }
 
@@ -149,31 +168,72 @@ header {
     color: white;
     border-radius: 40px;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .circular-frame {
     width: 50%;
-    height: 200px;
-    border-radius: 50%;
-    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 }
 
 .circular-frame img {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.testimonials-card img{
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+/*BENEFITS SECTION*/
+
+.benefits {
+    background-color: mediumpurple;
+    color: white;
+    margin-top: 60px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+.benefit-card {
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.number-h1, h1 {
+    color: mediumpurple;
+}
+
+.more {
+    background-color: mediumpurple;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*ABOUT US SECTION*/
+
+.photo-quote {
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fa-quote-left {
+    font-size: 50px;
+    color: mediumpurple;
+    margin-left: 50px;
 }
 
 /*
