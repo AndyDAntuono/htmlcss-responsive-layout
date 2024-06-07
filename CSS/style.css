@@ -80,6 +80,10 @@ footer {
 
 /*SERVICES SECTION*/
 
+.demo-col {
+    width: 100%;
+}
+
 .demo-card {
     background-color: cornflowerblue;
     margin-top: 30px;
@@ -114,10 +118,16 @@ footer {
     margin-left: 10px;
 }
 
+.service-col {
+    width: 100%;
+}
+
 .service-card {
     background-color: cornflowerblue;
     margin-bottom: 20px;
     border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .service-card h1, .fa-file-code, .fa-compass-drafting, .fa-laptop-code {
@@ -128,6 +138,12 @@ footer {
 
 .strategic-planning {
     background-color: mediumpurple;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sp-col {
+    width: 100%;
 }
 
 .sp-card {
@@ -142,10 +158,14 @@ footer {
     width: 100%;
 }
 
+.app-development-col {
+    width: 100%;
+}
+
 .app-development-card {
     background-color: white;
     color: black;
-    border-radius: 13px;
+    border-radius: 20px;
 }
 
 .app-development-card img {
@@ -161,6 +181,11 @@ footer {
 }
 
 /*TESTIMONIALS SECTION*/
+
+.testimonials-col {
+    width: 100%;
+}
+
 .testimonials-card {
     margin-top: 30px;
 }
@@ -170,11 +195,14 @@ footer {
     margin-bottom: 20px;
 }
 
+.single-testimonal-col {
+    width: 100%;
+}
+
 .single-testimonal-card {
     background-color: mediumpurple;
     color: white;
     border-radius: 40px;
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -193,6 +221,12 @@ footer {
     object-fit: cover;
 }
 
+.single-testimonal-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*BENEFITS SECTION*/
 
 .benefits {
@@ -202,6 +236,23 @@ footer {
     padding-top: 40px;
     margin-bottom: 60px;
     padding-bottom: 40px;
+}
+
+.benefit-title-col {
+    width: 100%;
+}
+
+.benefit-title-card {
+    margin-bottom: 20px;
+}
+
+.benefit-title-card h1{
+    color: white;
+    text-align: center;
+}
+
+.benefit-col {
+    width: 100%;
 }
 
 .benefit-card {
@@ -228,7 +279,20 @@ footer {
 
 /*ABOUT US SECTION*/
 
+.about-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us-text {
+    width: 100%;
+}
+
 .photo-quote {
+    width: 100%;
+}
+
+.photo-quote-img {
     width: 50%;
     height: 200px;
     border-radius: 50%;
@@ -237,7 +301,7 @@ footer {
     background-repeat: no-repeat;
 }
 
-.fa-quote-left {
+.photo-quote-img > .fa-quote-left {
     font-size: 50px;
     color: mediumpurple;
     margin-left: 50px;
@@ -266,6 +330,10 @@ footer {
     color: white;
 }
 
+.get-started-col {
+    width: 100%;
+}
+
 .h1-white {
     color: white;
 }
@@ -279,6 +347,10 @@ footer {
 }
 
 /*FOOTER*/
+
+.foooter-col {
+    width: 100%;
+}
 
 footer p {
     margin-top: 30px;
