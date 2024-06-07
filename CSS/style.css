@@ -9,6 +9,13 @@ header {
     color: white;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -269,6 +276,17 @@ header {
 
 .get-started-card a {
     color: white;
+}
+
+/*FOOTER*/
+
+footer p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+footer a {
+    color: mediumpurple;
 }
 
 /*
