@@ -92,9 +92,10 @@ footer {
 }
 
 .demo-card img {
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 45px;
 }
 
 
@@ -103,15 +104,15 @@ footer {
 }
 
 .app-store-button {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: blue;
     color: white;
-    width: 30%;
-    border-radius: 15px;
+    width: 70%;
+    border-radius: 35px;
     text-align: center;
-    margin-left: 30px;
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .fa-apple {
@@ -266,6 +267,7 @@ footer {
 
 .number-h1, h1 {
     color: mediumpurple;
+    margin-top: 5px;
 }
 
 .more {
@@ -361,10 +363,76 @@ footer a {
     color: mediumpurple;
 }
 
-/*
+@media screen and (min-width: 768px) {
 
+    .container {
+        width: 700px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .col-100 {
+        display: flex;
+    }
+
+    /*SERVICES SECTION*/
+    
+    .demo-col{
+        width: calc(100% / 1.5);
+    }
+    
+    .service-col {
+        width: calc(100% / 3);
+        margin-left: 30px;
+    }
+
+    /*STRATEGIC PLANNING SECTION*/
+
+    .col-100-sp {
+        flex-direction: column;
+    }
+
+    /*TESTIMONIALS SECTION*/
+    
+    .single-testimonal-col {
+        width: 90%;
+        display: flex;
+    }
+
+    
+    .circular-frame {
+        width: 40%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .circular-frame img {
+        height: 185px;
+    }
+
+    .single-testimonal-text {
+        width: 60%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*BENEFITS SECTION*/
+
+    
+    .col-100-benefits-cards {
+        width: 100%;
+    }
+
+    .benefit-col {
+        display: inline-block;
+        width: calc(99% / 2);
+    }
+
+}
+
+
+/*
 @media screen and (min-width: 1140px) {}
 
-@media screen and (min-width: 768px) {}
-
-*/
+/*
