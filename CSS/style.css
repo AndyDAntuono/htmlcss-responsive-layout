@@ -306,7 +306,7 @@ footer {
 .photo-quote-img > .fa-quote-left {
     font-size: 50px;
     color: mediumpurple;
-    margin-left: 50px;
+    margin-left: 152px;
 }
 
 .p-purple {
@@ -319,6 +319,7 @@ footer {
     background-color: mediumpurple;
     color: white;
     width: 50%;
+    margin-top: 20px;
     border-radius: 20px;
     text-align: center;
     padding-top: 10px;
@@ -370,19 +371,37 @@ footer a {
         margin: 0 auto;
         padding: 0 20px;
     }
-    
+
     .col-100 {
         display: flex;
     }
+    
 
     /*SERVICES SECTION*/
     
     .demo-col{
         width: calc(100% / 1.5);
     }
-    
+
+    .demo-card img {
+        margin-left: 10px;
+    }
+
     .service-col {
         width: calc(100% / 3);
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .clean-code-margin {
+        margin-left: 30px;
+    }
+
+    .web-design-margin {
+        margin-right: 30px;
+    }
+
+    .branding-margin {
         margin-left: 30px;
     }
 
@@ -401,7 +420,7 @@ footer a {
 
     
     .circular-frame {
-        width: 40%;
+        width: 35%;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 10px;
@@ -427,6 +446,35 @@ footer a {
     .benefit-col {
         display: inline-block;
         width: calc(99% / 2);
+    }
+
+    /*ABOUT US SECTION*/
+
+    .about-us-col {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-text {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .photo-quote {
+        display:inline-block;
+        width:20%;
+        margin-left: 30px;
+    }
+
+    .photo-quote-img {
+        width: 167%;
+    }
+    .p-purple {
+        font-size: 30px;
+    }
+    
+    .find-me {
+        width: 155%;
     }
 
 }
