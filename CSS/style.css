@@ -480,7 +480,125 @@ footer a {
 }
 
 
-/*
-@media screen and (min-width: 1140px) {}
 
-/*
+@media screen and (min-width: 1140px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .col-100 {
+        display: flex;
+    }
+    
+
+    /*SERVICES SECTION*/
+    
+    .demo-col{
+        width: calc(100% / 1.5);
+    }
+
+    .demo-card img {
+        margin-left: 10px;
+    }
+
+    .service-col {
+        width: calc(100% / 3);
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .clean-code-margin {
+        margin-left: 30px;
+    }
+
+    .web-design-margin {
+        margin-right: 30px;
+    }
+
+    .branding-margin {
+        margin-left: 30px;
+    }
+
+    /*STRATEGIC PLANNING SECTION*/
+
+    .col-100-sp {
+        flex-direction: row;
+    }
+
+    .sp-col {
+        width: 50%;
+    }
+
+    .app-development-col {
+        width: 50%;
+        display: inline-block;
+    }
+
+    /*TESTIMONIALS SECTION*/
+    
+    .single-testimonal-col {
+        width: 90%;
+        display: flex;
+    }
+
+    
+    .circular-frame {
+        width: 22%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .circular-frame img {
+        height: 185px;
+    }
+
+    .single-testimonal-text {
+        width: 60%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*BENEFITS SECTION*/
+
+    
+    .col-100-benefits-cards {
+        width: 100%;
+    }
+
+    .benefit-col {
+        display: inline-block;
+        width: calc(99% / 2);
+    }
+
+    /*ABOUT US SECTION*/
+
+    .about-us-col {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-text {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .photo-quote {
+        display:inline-block;
+        width:20%;
+        margin-left: 30px;
+    }
+
+    .photo-quote-img {
+        width: 100%;
+    }
+    .p-purple {
+        font-size: 30px;
+    }
+    
+    .find-me {
+        width: 155%;
+    }
+}
