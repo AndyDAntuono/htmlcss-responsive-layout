@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: blue;
+    background-color: rgba(0,132,253,255);;
     color: white;
 }
 
@@ -73,7 +73,7 @@ footer {
 
 /* HEADER */
 .header-site {
-    background-color: blue;
+    background-color: rgba(0,132,253,255);;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -84,8 +84,12 @@ footer {
     width: 100%;
 }
 
+.demo-col h1 {
+    color: rgba(28,145,253,255);
+}
+
 .demo-card {
-    background-color: cornflowerblue;
+    background-color: rgba(181,221,255,255);
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -106,7 +110,7 @@ footer {
 .app-store-button {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: blue;
+    background-color: rgba(0,132,253,255);
     color: white;
     width: 70%;
     border-radius: 35px;
@@ -124,7 +128,7 @@ footer {
 }
 
 .service-card {
-    background-color: cornflowerblue;
+    background-color: rgba(181,221,255,255);
     margin-bottom: 20px;
     border-radius: 20px;
     padding-top: 10px;
@@ -132,13 +136,13 @@ footer {
 }
 
 .service-card h1, .fa-file-code, .fa-compass-drafting, .fa-laptop-code {
-    color: blue;
+    color: rgba(0,132,253,255);
 }
 
 /*STRATEGIC PLANNING SECTION*/
 
 .strategic-planning {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -174,7 +178,7 @@ footer {
 }
 
 .violet-circle {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     border-radius: 50%;
     width: 20px;
     margin-left: auto;
@@ -201,7 +205,7 @@ footer {
 }
 
 .single-testimonal-card {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     color: white;
     border-radius: 40px;
     padding-top: 20px;
@@ -231,7 +235,7 @@ footer {
 /*BENEFITS SECTION*/
 
 .benefits {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     color: white;
     margin-top: 60px;
     padding-top: 40px;
@@ -266,12 +270,12 @@ footer {
 }
 
 .number-h1, h1 {
-    color: mediumpurple;
+    color: rgba(151,146,228,255);
     margin-top: 5px;
 }
 
 .more {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     color: white;
     width: 30%;
     border-radius: 10px;
@@ -305,18 +309,18 @@ footer {
 
 .photo-quote-img > .fa-quote-left {
     font-size: 50px;
-    color: mediumpurple;
+    color: rgba(151,146,228,255);
     margin-left: 152px;
 }
 
 .p-purple {
-    color: mediumpurple;
+    color: rgba(151,146,228,255);
     font-size: 50px;
     font-weight: bold;
 }
 
 .find-me {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     color: white;
     width: 50%;
     margin-top: 20px;
@@ -329,7 +333,7 @@ footer {
 /*GET-STARTED SECTION*/
 
 .get-started {
-    background-color: mediumpurple;
+    background-color: rgba(151,146,228,255);
     color: white;
 }
 
@@ -361,7 +365,7 @@ footer p {
 }
 
 footer a {
-    color: mediumpurple;
+    color: rgba(151,146,228,255);
 }
 
 @media screen and (min-width: 768px) {
